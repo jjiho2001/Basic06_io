@@ -20,7 +20,7 @@ public class FileTest {
 		 File (String pathname)
 		 */
 		try {
-			File f1 = new File("C://");
+			File f1 = new File("C://Users//Jiho Jung//Documents//P_File_explorer/abcde/abcd/asdjglasdg/asdjglasdg");
 			File f2 = new File("C://Users//Jiho Jung//Desktop/dev/student");
 			File f3 = new File("c://Users//Jiho Jung//Desktop/test.txt");
 			
@@ -77,7 +77,9 @@ public class FileTest {
 						System.out.println(f.getPath() + "[파일]");
 					}
 				}
+				System.out.println("\t"+files[0].getPath());
 			}
+			System.out.println(files.length);
 			
 			// 드라이브 목록
 			File drive[] = File.listRoots();
